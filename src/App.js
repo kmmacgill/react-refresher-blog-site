@@ -4,12 +4,14 @@ import Homepage from './pages/homePage';
 import ArticleListpage from './pages/articleList';
 import Articlepage from './pages/article';
 import Aboutpage from './pages/aboutMe';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <BrowserRouter>
+    <h1>Homepage</h1>
     <div className="App">
-      <h1>The Story of Korey</h1>
+      <Navbar/>
       <div className="page-body">
         <Routes>
           <Route path="/home" element={<Homepage/>}/>

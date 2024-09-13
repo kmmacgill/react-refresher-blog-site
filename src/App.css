@@ -23,7 +23,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: rgb(71, 143, 3);
 }
 
 nav ul {
@@ -46,8 +46,8 @@ nav a {
 }
 
 nav a:hover {
-  background: black;
-  color: white;
+  background: rgba(9, 240, 28, 0.692);
+  color: rgb(255, 255, 255);
 }
 
 #page-body {
